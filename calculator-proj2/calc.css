@@ -40,7 +40,7 @@
     }
     button:hover {
         filter: brightness(150%);
-        transform: scale(1.2);
+        transform: scale(1.15);
     }
     .sci {
         cursor: pointer;
@@ -68,19 +68,6 @@
         margin: 4px;
         font-size: 30px;
     }
-    .deg {
-        cursor: pointer;
-        border: none;
-        border-radius: 50%;
-        width: 65px;
-        height: 65px;
-        justify-content: space-evenly;
-        background-color: #2E2E2E;
-        color: #ED6825;
-        font-family: Arial, Helvetica, sans-serif;
-        margin: 4px;
-        font-size: 20px;
-    }
     .operator {
         cursor: pointer;
         border: none;
@@ -107,32 +94,3 @@
         margin: 4px;
         font-size: 20px;
     }
-    .inv {
-        cursor: pointer;
-        border: none;
-        border-radius: 50%;
-        width: 65px;
-        height: 65px;
-        justify-content: space-evenly;
-        background-color: #2E2E2E;
-        color: #b0a69e;
-        font-family: Arial, Helvetica, sans-serif;
-        margin: 4px;
-        font-size: 20px;
-    }
-    .inv:active{
-        color: #ED6825;
-    }
-
-    /* .cursor{
-        position: absolute;
-        width: 0px;
-        height: 0px;
-        border-radius: 50%;
-        background-color: white;
-        mix-blend-mode: difference;
-        pointer-events: none;
-        transform: translate(-50%,-50%);
-        box-shadow: 0 0 7rem 5rem rgb(127, 255, 229);
-        z-index: 1;
-    } */
