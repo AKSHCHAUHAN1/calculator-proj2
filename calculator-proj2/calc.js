@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
-    var output = document.getElementById("output");
-    var buttons = document.querySelectorAll("button");
-
+    let output = document.getElementById("output");
+    let buttons = document.querySelectorAll("button");
+    
      buttons.forEach(button => {
         button.addEventListener("click", function () {
             let buttonText = this.innerText;
